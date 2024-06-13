@@ -1,7 +1,5 @@
 import utime
 
-startdate = utime.localtime(1616861486)
-enddate = utime.localtime(1718295086)
 
 longMonth =  [1, 3,5,7,8,10,12]
 
@@ -99,9 +97,7 @@ def differenceMonthDay(d1, d2):
         c = d2[2]
         c = a + c
         return([b, c])
-    
-    print(d1)
-    print(d2)
+
     
 
 def differenceYearMonthDay(d1, d2):
@@ -113,4 +109,4 @@ def differenceHours(d1,d2):
     return (a / 60 / 60)
 
 
-print(differenceMonthDay(startdate, enddate))
+
